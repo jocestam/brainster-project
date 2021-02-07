@@ -23,7 +23,7 @@ const Kitchen = (props) => {
                 
                 </Col>
                 <Col md={4}>
-                    <img src={sl4} style={{width:'22rem',height:'17.3rem'}}/>
+                    <img src={sl4} style={{width:'100%',height:'17.3rem'}}/>
                 </Col>
                 <Col md={4}>
                     <h1>Space Kitchen</h1>

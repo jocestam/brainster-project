@@ -34,7 +34,7 @@ function back() {
                 
                 </Col>
                 <Col md={7} >
-                     <img id='swap' style={{height:'30rem',width:"40.2rem"}} src={edukacija} />
+                     <img id='swap' style={{height:'30rem',width:"100%"}} src={edukacija} />
             
                 </Col>
             </Row>

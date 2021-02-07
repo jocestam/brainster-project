@@ -18,7 +18,7 @@ const Coworking = (props) => {
         <Container>
                <Row >
                 <Col md={7} className='text'>
-                <img style={{height:'30rem',width:"40.2rem"}} src={coworkpic} />
+                <img style={{height:'30rem',width:"100%"}} src={coworkpic} />
                 
                 </Col>
                 <Col  md={4} className='text'>

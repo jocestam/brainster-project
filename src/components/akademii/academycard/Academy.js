@@ -16,7 +16,7 @@ const Academy = (props) => {
 
 
                         
-     <Card className='cardacdm' style= {{marginTop: '12px',width:'23rem', height:'25rem'}}>
+     <Card className='cardacdm' style= {{marginTop: '12px',width:'100%', height:'29rem'}}>
              
              <img className='bgimg' src={props.bgi} ></img>
             

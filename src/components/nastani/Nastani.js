@@ -12,7 +12,7 @@ const Nastani = (props) => {
 
   return (
     <Container>
-        <h1 style={{marginLeft:'9rem',marginTop:'20px'}}>Calendar</h1>
+        <h1 className='calendarh1'>Calendar</h1>
      <Calendar className='custom' />
   
     </Container>

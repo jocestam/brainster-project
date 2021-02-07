@@ -81,7 +81,7 @@ const Prostor_za_nastani = (props) => {
           <Col md={5}>
             <img
               src={anja}
-              style={{ width: "25rem", height: "30rem", marginLeft: "55px" }}
+              style={{ width: "100%", height: "30rem", }}
             />
           </Col>
         </Row>

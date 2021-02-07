@@ -20,7 +20,7 @@ const Del1 = (props) => {
 
                 </Col>
                 <Col md={7}>
-                <img style={{height:'30rem',width:"40.7rem"}} src={img} />
+                <img style={{height:'30rem',width:"100%"}} src={img} />
                 </Col>
             </Row>
 

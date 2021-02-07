@@ -11,7 +11,8 @@ import { NavLink } from "react-router-dom";
 const Footer = (props) => {
   return (
     <Container className="footer">
-      <Col md={2} style={{ marginLeft: "6.6rem" }}>
+      <Row style={{width:'100%'}}>
+      <Col md={3} style={{ marginLeft: "6.6rem" }}>
         <Row style={{ fontWeight: "bold" }}>Корисни линкови</Row>
         <br />
 
@@ -45,7 +46,7 @@ const Footer = (props) => {
         </NavLink>
       </Col>
 
-      <Col md={2}>
+      <Col md={3}>
         <Row style={{ fontWeight: "bold" }}>Социјални мрежи</Row>
         <br />
         <Row>
@@ -79,9 +80,10 @@ const Footer = (props) => {
           </a>
         </Row>
       </Col>
-      <Col md={2}>
-        <img style={{ marginLeft: "36rem" }} src={logo}></img>
+      <Col  className='ftlogo'  >
+        <img src={logo} style={{height:'60px'}}></img>
       </Col>
+      </Row>
     </Container>
   );
 };

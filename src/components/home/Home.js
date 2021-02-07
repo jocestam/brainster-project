@@ -250,13 +250,16 @@ const Home = () => {
           </Col>
         </Row>
         <Row>
-          <NavLink to="/nastani">
+          <Col className='fabutton'>
+          <NavLink className='navtocal' to="/nastani">
             <button className="btn btnkalendar">
               {" "}
               <FaCalendarAlt /> КАЛЕНДАР СО НАСТАНИ
             </button>
           </NavLink>
-        </Row>
+          </Col>
+          </Row>
+        
       </div>
 
       <div className="row2" id="coworking">
@@ -267,11 +270,15 @@ const Home = () => {
       </div>
 
       <div className="row2 partneri">
+        
         <h1 className="lasttext">Партнери</h1>
+
         <p className="lasttext">Имаш идеја? Отворени сме за соработка.</p>
-        <NavLink to="/prostor_za_nastani">
-          <button className="modbtn4 btn lasttext">ВИДИ ГО ПРОСТОРОТ</button>
+        <Col className='lasttext'>
+        <NavLink to="/prostor_za_nastani" onClick={() => window.scrollTo(0, 0)}>
+          <button className="modbtn4 lasttext">ВИДИ ГО ПРОСТОРОТ</button>
         </NavLink>
+        </Col>
       </div>
     </Container>
   );

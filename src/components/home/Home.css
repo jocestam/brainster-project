@@ -21,10 +21,12 @@ a{
     font-weight: normal!important;
 }
 .modbtn4{
-    background-color: black !important;
-    color: orange !important;
-    margin-left: 28rem!important;
-    font-weight: bold!important;
+    background-color: black ;
+    color: orange ;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-style: hidden;
+    border-radius: 5px;
     
     
     
@@ -70,8 +72,15 @@ a{
 .btnkalendar{
     background-color: black!important;
     color: orange!important;
-    margin-top: 15px;
-    margin-left: 56.4rem;
 
 }
 
+.fabutton{
+    margin-top: 13px;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+
+ 
+}

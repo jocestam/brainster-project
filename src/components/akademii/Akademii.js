@@ -34,7 +34,7 @@ const Akademii = (props) => {
         </Col>
 
         <Col md={8}>
-          <img src={akademiip} style={{ height: "30rem", width: "46.7rem" }} />
+          <img src={akademiip} style={{ height: "30rem", width: "100%" }} />
         </Col>
       </Row>
 

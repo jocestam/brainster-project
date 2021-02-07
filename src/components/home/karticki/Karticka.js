@@ -8,7 +8,7 @@ const Karticka = (props) => {
     return (
         <div className='.kartdiv' >
             
-            <Card style={{width:'22.5rem', height:'32rem'}} className="kart">
+            <Card style={{width:'100%', height:'32rem'}} className="kart">
                      <Card.Img style={{height:'15rem'}} variant="top" src={props.img} />
                   <Card.Body>
                      <Card.Title>{props.title}</Card.Title>

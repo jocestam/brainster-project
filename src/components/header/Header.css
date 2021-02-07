@@ -7,7 +7,7 @@
 
 }
 .brandclass{
-    margin-right: 50px;
+    margin-right: 2%;
 }
 .navli{
     text-decoration: none !important;
@@ -40,7 +40,7 @@
 .modbtn{
     background-color: black !important;
     color: orange !important;
-    margin-left: 70px !important;
+    margin-left: 4% !important;
     font-weight: bold!important;
     
 }
@@ -56,3 +56,4 @@
     color: orange !important;
     
 }
+

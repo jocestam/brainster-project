@@ -17,13 +17,13 @@ const Prostor = () => {
                     <h1 style={{marginTop:'80px'}}>Простор за настани</h1>
                     <p >Можност за презентации, обуки, конференции, networking настани. Одбери ја просторијата која најмногу ќе одговара на твојата идеја. Го задржуваме правото да одбереме кој настан ќе се организира во нашиот Brainster Space.</p>
                     <br/>
-                    <NavLink to='/prostor_za_nastani'>
+                    <NavLink to='/prostor_za_nastani' onClick={() => window.scrollTo(0, 0)}>
                     <button className='modbtn btn'>ВИДИ ГО ПРОСТОРОТ</button>
                     </NavLink>
                   
                 </Col>
                 <Col  md={7} >
-                     <img style={{height:'30rem',width:"40.2rem"}} src={prostor_slika} />
+                     <img style={{height:'30rem',width:"100%"}} src={prostor_slika} />
                 </Col>
             </Row>
 

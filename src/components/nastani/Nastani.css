@@ -1,10 +1,10 @@
 .custom{
     
     margin-top: 20px;
-    margin-left: 8rem;
+  
     margin-bottom: 50px;
     padding: 20px 20px;
-    width: 55rem;
+    width: 100%;
     height: 20rem;
     border-style: hidden;
 
@@ -17,6 +17,9 @@
     color: orange;
     border: 3px solid;
     border-radius: 10px 10px;    
+}
+.calendarh1{
+margin-left: 5rem;  
 }
 
 
