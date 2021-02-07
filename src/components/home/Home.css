@@ -1,0 +1,77 @@
+.zanas{
+display: flex;
+justify-content: center;
+}
+.kol{
+    margin-top: 12px;
+    
+}
+.nvlink{
+    text-decoration: none !important;
+    color: black!important;
+    width: 100%;
+    height: 100%;
+}
+.row2{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none!important;
+    color: black !important;
+    font-weight: normal!important;
+}
+.modbtn4{
+    background-color: black !important;
+    color: orange !important;
+    margin-left: 28rem!important;
+    font-weight: bold!important;
+    
+    
+    
+}
+.lasttext{
+    display: flex;
+    justify-content: center;
+    
+}
+.home1{
+    margin-top: 15px;
+    background: url('./karticki/sliki/codeworks.jpg');
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 95%;
+    filter: brightness(75%);
+    width: 100%;
+    height: 100%;
+    
+
+}
+.home1p{
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 500px;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnkalendar{
+    background-color: black!important;
+    color: orange!important;
+    margin-top: 15px;
+    margin-left: 56.4rem;
+
+}
+

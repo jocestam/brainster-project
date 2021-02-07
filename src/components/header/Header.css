@@ -1,0 +1,58 @@
+.navclass{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.brandclass{
+    margin-right: 50px;
+}
+.navli{
+    text-decoration: none !important;
+    margin-left: 25px;
+    color: black !important;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: bold!important;
+}
+.navli::after{
+    content: "";
+    position: absolute;
+    background: orange;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    transition: 0.4s;
+    
+}
+.navli:hover::after{
+    width: 100%;
+}
+
+
+
+.modbtn{
+    background-color: black !important;
+    color: orange !important;
+    margin-left: 70px !important;
+    font-weight: bold!important;
+    
+}
+.submitBtn{
+    margin-left: 78%;
+    background-color: black !important;
+    color: orange !important;
+    
+}
+.submitBtn2{
+    margin-left: 65%;
+    background-color: black !important;
+    color: orange !important;
+    
+}
